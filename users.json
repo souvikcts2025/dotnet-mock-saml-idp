@@ -1,0 +1,14 @@
+[
+  {
+    "email": "bob@example.com",
+    "password": "bob",
+    "displayName": "Bob Smith",
+    "objectId": "aaaaaaaa-0000-0000-0000-000000000001"
+  },
+  {
+    "email": "alice@example.com",
+    "password": "alice",
+    "displayName": "Alice Jones",
+    "objectId": "aaaaaaaa-0000-0000-0000-000000000002"
+  }
+]
