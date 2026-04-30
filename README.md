@@ -15,9 +15,17 @@ Intended for development and testing of applications that use SAML 2.0 authentic
 
 ## Running
 
+### Command line
+
 ```bash
 dotnet run --project MockSamlIdp.csproj --launch-profile http
 ```
+
+### Visual Studio
+
+1. Open `dotnet-mock-saml.sln` in Visual Studio
+2. Select the **http** launch profile from the dropdown (next to the Start button)
+3. Press **F5** or click the **Start** button
 
 The IdP will be available at `http://localhost:5001`.
 
@@ -38,7 +46,7 @@ Defined in `users.json`. Edit this file to add or change users — no recompile 
 | bob@example.com | bob | Bob Smith |
 | alice@example.com | alice | Alice Jones |
 
-### Adding a user
+### Adding a user in `users.json`
 
 ```json
 {
